@@ -31,9 +31,7 @@ public class Goomba extends Creature {
 				Actions.delay(0.5f),
 				MoveableActions.DieAction(this)));
 	}
-	
 
-	
 	protected void deadByTrample() {
 		dieByTrample();
 	}
@@ -91,7 +89,6 @@ public class Goomba extends Creature {
 		}
 	}
 
-
 	@Override
 	protected void collisionXAction() {
 		if(direction == Direction.LEFT) {
@@ -110,6 +107,4 @@ public class Goomba extends Creature {
 	public void dispose() {
 		gfx.dispose();
 	}
-
-	
 }

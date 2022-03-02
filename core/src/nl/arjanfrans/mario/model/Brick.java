@@ -42,9 +42,6 @@ public class Brick extends StaticActor {
 			empty_texture = Tiles.getTile("brick_empty");
 			shatter =  new BrickShatter(this.getX(), this.getY());
 		}
-		else if(color.equals("blue")) {
-			//TODO make blue tile
-		}
 	}
 	
 	@Override
